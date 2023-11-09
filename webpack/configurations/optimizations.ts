@@ -10,18 +10,6 @@ export const initOptimizations = (
     const { isDev } = settings;
 
     return {
-        splitChunks: {
-            chunks: "all",
-            cacheGroups: {
-                default: false,
-                assets: {
-                    test: /[\\/]node_modules[\\/]/,
-                    name: "assets",
-                    reuseExistingChunk: true,
-                },
-            },
-        },
-        removeAvailableModules: true,
         minimize: !isDev,
         minimizer: isDev ? [] : [initTerserPlugin()],
     };

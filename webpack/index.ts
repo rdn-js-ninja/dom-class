@@ -1,4 +1,5 @@
 import { Configuration } from "webpack";
+import webpackNodeExternals from "webpack-node-externals";
 
 import { TSettings } from "./types";
 import {
@@ -38,8 +39,6 @@ export const initDefaultConfig = (settings: TSettings): Configuration => {
                 "**/tsconfig.json",
             ],
         },
-        experiments: {
-            outputModule: true,
-        },
+        externals: [webpackNodeExternals()],
     };
 };
