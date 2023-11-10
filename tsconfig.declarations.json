@@ -3,7 +3,8 @@
     "compilerOptions": {
         "declaration": true,
         "outDir": "./lib/declarations",
-        "emitDeclarationOnly": true
+        "emitDeclarationOnly": true,
+        "removeComments": false
     },
     "include": ["./src/index.ts"]
 }
