@@ -1,6 +1,6 @@
 {
     "name": "@js-ninja/dom-class",
-    "version": "1.0.51",
+    "version": "1.0.52",
     "description": "A library for simplified manipulation of DOM classes in JavaScript.",
     "homepage": "https://github.com/rdn-js-ninja/dom-class#readme",
     "repository": {
