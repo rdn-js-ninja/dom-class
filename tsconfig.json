@@ -37,14 +37,6 @@
         /**
          * Emit
          */
-        "outDir": "./lib",
-        "downlevelIteration": true,
-        "importHelpers": true,
-        "inlineSourceMap": true,
-        "inlineSources": true,
-        "noEmitHelpers": true,
-        "noEmitOnError": true,
-        "preserveConstEnums": true,
         "removeComments": true,
 
         /**
@@ -52,7 +44,6 @@
          */
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
         "isolatedModules": true,
 
         /**
@@ -60,15 +51,10 @@
          */
         "lib": ["DOM", "ESNext"],
         "target": "ES5",
-        "useDefineForClassFields": true,
-        "explainFiles": true,
-        "extendedDiagnostics": true,
-        "listEmittedFiles": true,
 
         /**
          * Output Formatting
          */
-        "noErrorTruncation": true,
         "pretty": true,
 
         /**
